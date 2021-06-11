@@ -1,0 +1,78 @@
+@import url("https://cdn.syncfusion.com/ej2/material.css");
+p,
+.calendar,
+footer {
+  display: flex;
+  justify-content: center;
+}
+select {
+  width: 220px;
+}
+input,
+select {
+  position: static;
+  border: none;
+  height: 20px;
+}
+fieldset {
+  width: 220px;
+  height: 28px;
+  margin-left: 508px;
+}
+footer #cal {
+  background-color: #c70039;
+  color: white;
+  width: 130px;
+  height: 35px;
+}
+#cal:hover {
+  background-color: lighter;
+  cursor: pointer;
+}
+header #log {
+  margin-top: 15px;
+}
+header {
+  background-color: #c70039;
+  height: 50px;
+}
+div.btns {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto auto;
+  /* border: 2px solid black; */
+  padding: 10px;
+  grid-gap: 10px;
+  width: 300px;
+  margin-left: 29%;
+}
+.btns > div {
+  text-align: center;
+}
+.grid-item {
+  border: 1px solid grey;
+  height: 25px;
+  width: 60px;
+  display: flex;
+  color: grey;
+  text-align: center;
+  justify-content: center;
+  padding: 6px;
+  border-radius: 10px;
+}
+.grid-item18 {
+  border: 1px solid grey;
+  width: 60px;
+  height: 25px;
+  padding: 6px;
+  color: grey;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 47%;
+  border-radius: 10px;
+}
+.grid-item:hover,
+.grid-item18:hover {
+  color: black;
+  cursor: pointer;
+}
